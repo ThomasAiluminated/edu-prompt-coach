@@ -2,6 +2,8 @@
 
 **Een Claude-skill die docenten een kant-en-klare AI-prompt geeft, en kort uitlegt waarom die prompt werkt.**
 
+🇬🇧 [English version](README.en.md) · 📄 [Voorbeelden](examples/)
+
 Docenten willen vandaag een bruikbaar resultaat, maar ook morgen zelf betere prompts kunnen schrijven. Deze skill doet allebei: je krijgt een prompt om meteen te plakken, plus een korte didactische toelichting die elke prompttechniek koppelt aan een onderwijsprincipe.
 
 *English summary: a Claude skill that turns a teacher's request into a ready-to-paste prompt for any AI tool, and briefly explains the pedagogy behind it so teachers learn to prompt better themselves.*
@@ -27,6 +29,15 @@ Docenten willen vandaag een bruikbaar resultaat, maar ook morgen zelf betere pro
 
 De skill levert een prompt die het leerdoel (argumentatie) centraal zet, de feedback beperkt tot maximaal drie verbeterpunten en geen cijfer laat geven. Daarbij legt hij uit waarom elk van die keuzes de feedback beter maakt voor de leerling.
 
+Deze skill hoort bij **[Claude Skills for Education](https://github.com/ThomasAiluminated/claude-skills-for-education)**, een open reeks voor onderwijs en L&D:
+- [Lesson Designer](https://github.com/ThomasAiluminated/lesson-designer): lessen ontwerpen van leerdoel tot exit-check
+- [Rubric Builder](https://github.com/ThomasAiluminated/rubric-builder): beoordelingsrubrics met observeerbare niveaus
+- [Assessment Item Writer](https://github.com/ThomasAiluminated/assessment-item-writer): toets- en examenvragen met sleutel en feedback
+- [Feedback Writer](https://github.com/ThomasAiluminated/feedback-writer): specifieke, haalbare feedback op leerlingenwerk
+- [Inclusive Lesson Adapter](https://github.com/ThomasAiluminated/inclusive-lesson-adapter): lesmateriaal toegankelijk maken met UDL
+- [Learning Program Designer](https://github.com/ThomasAiluminated/learning-program-designer): opleidingen en leertrajecten ontwerpen
+- [Prompt Architect](https://github.com/ThomasAiluminated/prompt-architect): een ruwe vraag omzetten in een sterke prompt voor Claude
+
 ## Installeren
 
 **In Claude (claude.ai of de app):**
@@ -43,6 +54,7 @@ Daarna volstaat een gewone vraag, zoals *"maak een prompt voor een rubric voor s
 ```
 edu-prompt-coach/
 └── SKILL.md          # de volledige instructies van de skill
+examples/                 # voorbeelden van input en output
 edu-prompt-coach.skill  # installeerbaar pakket
 ```
 
